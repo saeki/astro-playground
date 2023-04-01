@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ["plugin:astro/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:astro/recommended",
+  ],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   overrides: [
     {
       // Define the configuration for `.astro` file.
