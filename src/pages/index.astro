@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import Card from "@/components/Card.astro";
 import ReactCard from "@/components/ReactCard";
 import SolidCard from "@/components/SolidCard";
+import SvelteCard from "@/components/SvelteCard.svelte";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -37,7 +38,7 @@ import SolidCard from "@/components/SolidCard";
         title="Themes"
         body="Explore a galaxy of community-built starter themes."
       />
-      <Card
+      <SvelteCard
         href="https://astro.build/chat/"
         title="Community"
         body="Come say hi to our amazing Discord community. ❤️"

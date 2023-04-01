@@ -6,7 +6,7 @@ module.exports = {
     "plugin:solid/typescript",
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "solid"],
+  plugins: ["solid", "svelte3", "@typescript-eslint"],
   overrides: [
     {
       // Define the configuration for `.astro` file.
@@ -24,5 +24,15 @@ module.exports = {
         // "astro/no-set-html-directive": "error"
       },
     },
+    {
+      files: ["*.svelte"],
+      processor: "svelte3/svelte3",
+    },
   ],
+  parserOptions: {
+    extraFileExtensions: ['.svelte'],
+  },
+  settings: {
+    "svelte3/typescript": true,
+  },
 };
