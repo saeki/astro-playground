@@ -1,6 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import AstroCard from "@/components/AstroCard.astro";
+import PreactCard from "@/components/PreactCard";
 import ReactCard from "@/components/ReactCard";
 import SolidCard from "@/components/SolidCard";
 import SvelteCard from "@/components/SvelteCard.svelte";
@@ -23,12 +23,12 @@ import SvelteCard from "@/components/SvelteCard.svelte";
       to Astro" message above.
     </p>
     <ul role="list" class="grid grid-cols-2 gap-4">
-      <AstroCard
+      <ReactCard
         href="https://docs.astro.build/"
         title="Documentation"
         body="Learn how Astro works and explore the official API docs."
       />
-      <ReactCard
+      <PreactCard
         href="https://astro.build/integrations/"
         title="Integrations"
         body="Supercharge your project with new frameworks and libraries."

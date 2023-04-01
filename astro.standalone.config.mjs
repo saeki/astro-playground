@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import node from "@astrojs/node";
+import preact from "@astrojs/preact";
 import react from "@astrojs/react";
 import solid from "@astrojs/solid-js";
 import svelte from "@astrojs/svelte";
@@ -11,5 +12,5 @@ export default defineConfig({
   adapter: node({
     mode: "standalone",
   }),
-  integrations: [react(), solid(), svelte(), tailwind()],
+  integrations: [preact(), react(), solid(), svelte(), tailwind()],
 });
