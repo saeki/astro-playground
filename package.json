@@ -10,11 +10,11 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/vercel": "3.2.1",
     "astro": "2.1.9"
   },
   "devDependencies": {
     "@astrojs/tailwind": "3.1.1",
+    "@astrojs/vercel": "3.2.1",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/forms": "0.5.3",
     "@tailwindcss/typography": "0.5.9",
