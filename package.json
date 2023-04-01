@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/vercel": "3.2.1",
-    "astro": "2.1.8"
+    "astro": "2.1.9"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "5.57.0",
